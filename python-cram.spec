@@ -2,14 +2,14 @@
 
 Name:           python-%{module}
 Version:        0.7
-Release:        1
+Release:        2
 Summary:        Simple testing framework for command line applications
 Group:          Development/Python
 License:        GPLv2
 Url:            https://bitheap.org/cram/
 Source0:        http://pypi.python.org/packages/source/c/%{module}/%{module}-%{version}.tar.gz
 BuildRequires:  pkgconfig(python)
-BuildRequires:  pythonegg(setuptools)
+BuildRequires:  python3dist(setuptools)
 BuildArch:      noarch
 
 %description
