@@ -2,7 +2,7 @@
 
 Name:           python-%{module}
 Version:        0.7
-Release:        2
+Release:        3
 Summary:        Simple testing framework for command line applications
 Group:          Development/Python
 License:        GPLv2
